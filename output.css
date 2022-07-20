@@ -1,0 +1,98 @@
+/*Variables*/
+/*Main Page Styles*/
+body section .carrusel img {
+  height: 90vh;
+  object-fit: cover;
+}
+body .texto {
+  margin: 10vh 0vw 0vh 15vw;
+}
+
+/*Contact form style*/
+main .contact_form {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  border: solid #000 1px;
+  border-radius: 10px;
+  position: absolute;
+}
+main .contact_form form label {
+  color: #fff;
+}
+main .contact_form form div {
+  margin-top: 2rem;
+}
+main .contact_form form div input {
+  display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border-style: none;
+}
+main .contact_form form div textarea {
+  display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
+  border-radius: 10px;
+  border-style: none;
+}
+main .contact_form form button {
+  padding: 0.5rem 2rem;
+  margin: 2vh 0vw 0vh 5vw;
+}
+
+/*Special margin between every section*/
+.mg {
+  margin-top: 15vh;
+}
+
+/*Image resize*/
+.bg_img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.smallImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: solid #000 1px;
+}
+
+/*BackGround Card color*/
+.bg-card {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Breakpoints*/
+@media (min-width: 800px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 11vh;
+    left: 40vw;
+  }
+}
+@media (max-width: 800px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 10vh;
+    left: 30vw;
+  }
+}
+@media (max-width: 450px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 10vh;
+    left: 10vw;
+  }
+}
+@media (max-width: 320px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 10vh;
+    left: 2vw;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
